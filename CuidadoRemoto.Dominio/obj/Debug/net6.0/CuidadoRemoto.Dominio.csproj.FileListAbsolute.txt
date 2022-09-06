@@ -1,0 +1,12 @@
+C:\CuidadoRemotoBovino\CuidadoRemoto.App\CuidadoRemoto.Dominio\bin\Debug\net6.0\CuidadoRemoto.Dominio.deps.json
+C:\CuidadoRemotoBovino\CuidadoRemoto.App\CuidadoRemoto.Dominio\bin\Debug\net6.0\CuidadoRemoto.Dominio.dll
+C:\CuidadoRemotoBovino\CuidadoRemoto.App\CuidadoRemoto.Dominio\bin\Debug\net6.0\CuidadoRemoto.Dominio.pdb
+C:\CuidadoRemotoBovino\CuidadoRemoto.App\CuidadoRemoto.Dominio\obj\Debug\net6.0\CuidadoRemoto.Dominio.csproj.AssemblyReference.cache
+C:\CuidadoRemotoBovino\CuidadoRemoto.App\CuidadoRemoto.Dominio\obj\Debug\net6.0\CuidadoRemoto.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\CuidadoRemotoBovino\CuidadoRemoto.App\CuidadoRemoto.Dominio\obj\Debug\net6.0\CuidadoRemoto.Dominio.AssemblyInfoInputs.cache
+C:\CuidadoRemotoBovino\CuidadoRemoto.App\CuidadoRemoto.Dominio\obj\Debug\net6.0\CuidadoRemoto.Dominio.AssemblyInfo.cs
+C:\CuidadoRemotoBovino\CuidadoRemoto.App\CuidadoRemoto.Dominio\obj\Debug\net6.0\CuidadoRemoto.Dominio.csproj.CoreCompileInputs.cache
+C:\CuidadoRemotoBovino\CuidadoRemoto.App\CuidadoRemoto.Dominio\obj\Debug\net6.0\CuidadoRemoto.Dominio.dll
+C:\CuidadoRemotoBovino\CuidadoRemoto.App\CuidadoRemoto.Dominio\obj\Debug\net6.0\refint\CuidadoRemoto.Dominio.dll
+C:\CuidadoRemotoBovino\CuidadoRemoto.App\CuidadoRemoto.Dominio\obj\Debug\net6.0\CuidadoRemoto.Dominio.pdb
+C:\CuidadoRemotoBovino\CuidadoRemoto.App\CuidadoRemoto.Dominio\obj\Debug\net6.0\ref\CuidadoRemoto.Dominio.dll
