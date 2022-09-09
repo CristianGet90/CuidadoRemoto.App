@@ -6039,7 +6039,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\SERVISYSTEM\\.nuget\\packages\\": {}
+    "C:\\Users\\mazuluaga\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -6047,11 +6047,11 @@
       "projectUniqueName": "C:\\CuidadoRemotoBovino\\CuidadoRemoto.App\\CuidadoRemoto.Consola\\CuidadoRemoto.Consola.csproj",
       "projectName": "CuidadoRemoto.Consola",
       "projectPath": "C:\\CuidadoRemotoBovino\\CuidadoRemoto.App\\CuidadoRemoto.Consola\\CuidadoRemoto.Consola.csproj",
-      "packagesPath": "C:\\Users\\SERVISYSTEM\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\mazuluaga\\.nuget\\packages\\",
       "outputPath": "C:\\CuidadoRemotoBovino\\CuidadoRemoto.App\\CuidadoRemoto.Consola\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\SERVISYSTEM\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\mazuluaga\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"

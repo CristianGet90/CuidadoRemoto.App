@@ -1,0 +1,102 @@
+﻿@page
+@model CuidadoRemoto.Frontend.FormVeterinarioModel
+@{
+    <html>
+
+    <head>
+        <link rel="stylesheet" href="FormVisita.cshtml"/>
+        <link rel="stylesheet" href="site.css" />
+
+    </head>
+
+    <body>
+        <div>
+
+     
+        <h2 class="tituloPropietario"> INGRESE DATOS DEL VETERINARIO </h2>
+
+             <table class="tableFormularios">
+            @foreach (var formulario in Model.ListaDatosVeterinario)
+            {
+                <tr>
+                    <td>@formulario</td>
+                </tr>
+
+                <td>
+                    <form>
+                        <!-- Etiqueta del texto -->
+                        <labe for="tarjeta"># TARJETA PROFECIONAL</labe>
+                        <!-- campo de texto -->
+                        <input type="text" tarjeta="tarjeta" />
+                        
+                    </form>
+                </td>
+
+                <td>
+                    <form>
+                        <labe for="nombre">NOMBRES</labe>
+                        <input type="text" nombre="nombre" />
+
+                    </form>
+                </td>
+
+                <td>
+                    <form>
+                        <labe for="apellido">APELLIDOS</labe>
+                        <input type="text" apellido="apellido" />
+                
+                    </form>
+                </td>
+                
+         
+
+                 <td>
+                    <form>
+                        <labe for="direccion">DIRECCION</labe>
+                        <input type="text" direccion="direccion" />
+                        
+                    </form>
+                </td>
+
+                <td>
+                    <form>
+                        <labe for="telefono">TELEFONO</labe>
+                        <input type="text" telefono="telefono" />
+    
+                    </form>
+                </td>
+                
+            }
+            
+        </table>
+        <div class="botonescrud">
+            <button type="submit">Guardar</button>
+            <button type="submit">Editar</button>
+            <button type="submit">Buscar</button>
+            <button type="submit">Eliminar</button>
+        <section class="registrarVisita">
+            
+             <ul>
+                
+                    <a href="FormVisita">
+                        <!-- <button type="submit">Registrar su Bovino</button> -->
+                        
+                        <input class="boton w-sm-100" type="submit" value="Registrar Visita">
+                        
+                    </a>
+
+            </ul>
+                
+        </section>
+        </div>
+      
+
+       
+
+        </div>
+        
+    </body>
+
+    </html>
+    
+}

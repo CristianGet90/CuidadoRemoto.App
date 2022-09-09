@@ -7,6 +7,7 @@ namespace CuidadoRemoto.Dominio
       public int id { get; set;}
       public string Diagnostico { get; set;}
       public string FechaHistoria { get; set;}
+      
 
     }
 

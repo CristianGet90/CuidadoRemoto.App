@@ -1,0 +1,70 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  background-color: aquamarine;
+}
+.tableFormularios{
+  background:  rgb(115, 211, 139);
+  height: 40px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 10%
+  
+}
+.tituloPropietario
+{
+  text-align: center;
+}
+.titiloBovino
+{
+  text-align: center;
+}
+
+.botonescrud
+{
+  font-size: 20px;
+  text-align: center;
+  padding: 10px
+  
+}
+
+.w-sm-100
+{
+  margin-top: 15px;
+  width: 100%;
+  background-color: teal;
+}
+@media (min-width:  768px)
+ {
+  .w-sm-100{
+      width: auto;
+  }
+  
+}
+
+
+.navbar .nav-item:not(:last-child) {
+  margin-right: 35px;
+}
+ 
+.dropdown-toggle::after {
+   transition: transform 0.15s linear; 
+}
+ 
+.show.dropdown .dropdown-toggle::after {
+  transform: translateY(3px);
+}
