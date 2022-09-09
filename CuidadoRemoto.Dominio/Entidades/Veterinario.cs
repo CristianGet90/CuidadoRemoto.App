@@ -13,7 +13,7 @@ namespace CuidadoRemoto.Dominio
       
       public string Telefono {get; set;} 
       
-      public int tarjetaProfecional {get; set;}
+      public int tarjetaProfesional {get; set;}
       
 
     }
