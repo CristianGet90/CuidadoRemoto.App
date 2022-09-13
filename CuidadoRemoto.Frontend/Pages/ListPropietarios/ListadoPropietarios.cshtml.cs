@@ -6,11 +6,18 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace CuidadoRemoto.Frontend.Pages
 {
-    private readonly 
+   
     public class ListadoPropietariosModel : PageModel
     {
-        public void OnGet()
+        private readonly IRepositorioPropietario repositorioPropietario;
+        public IEnumerable<PropietarioBovino> Propietarios { get; set; }
+        public ListadoPropietariosModel()
         {
+            this.repositorioPropietario= new RepositorioPropietario(new CuidadoRemoto.Persistencia.AppContext());
+        }
+        public void OnGet()
+        {  //lLamado del metodo
+            Propietarios= repositorioPropietario.GetAllPropietarios();
         }
     }
 }
