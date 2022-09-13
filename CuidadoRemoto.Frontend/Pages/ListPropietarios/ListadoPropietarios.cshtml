@@ -2,3 +2,25 @@
 @model CuidadoRemoto.Frontend.Pages.ListadoPropietariosModel
 @{
 }
+
+<h1>ListadoPropietarios</h1>
+
+<table class="table">
+    @foreach (var propietario in Model.Propietarios)
+    {
+        <tr>
+            <td>@propietario.Cedula_Propietario</td>
+            <td>@propietario.Nombres</td>
+            <td>@propietario.Apellidos</td>
+            <td>@propietario.Direccion</td>
+            <td>@propietario.Telefono</td>
+            <td>@propietario.Correo</td>
+            
+        </tr>
+        
+    }
+
+
+
+
+</table>

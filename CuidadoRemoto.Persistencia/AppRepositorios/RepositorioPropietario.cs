@@ -49,6 +49,9 @@ namespace CuidadoRemoto.Persistencia
                 propietarioEncontrado.Cedula_Propietario=propietario.Cedula_Propietario;
                 propietarioEncontrado.Nombres=propietario.Nombres;
                 propietarioEncontrado.Apellidos=propietario.Apellidos;
+                propietarioEncontrado.Direccion=propietario.Direccion;
+                propietarioEncontrado.Telefono=propietario.Telefono;
+                propietarioEncontrado.Correo=propietario.Correo;
 
 
 
