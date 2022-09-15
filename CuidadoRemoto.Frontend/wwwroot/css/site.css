@@ -1,3 +1,11 @@
+:root{
+  --color1: #3E8C84;
+  --color2: #32736C;
+  --color3: #275950  ;
+  --color4: #73604F;
+  --color5: #BFAE9F;  
+}
+
 html {
   font-size: 14px;
 }
@@ -15,7 +23,11 @@ html {
 
 body {
   margin-bottom: 60px;
-  background-color: aquamarine;
+  background-color: var(--color1) !important;
+}
+
+footer > div{
+  color:#FFFFFF !important;
 }
 .tableFormularios{
   background:  rgb(115, 211, 139);
@@ -68,3 +80,165 @@ body {
 .show.dropdown .dropdown-toggle::after {
   transform: translateY(3px);
 }
+#cuerpoMenu{
+  background-image: url(bg.jpg);
+}
+
+/*Registrar*/
+#divForm{
+  margin-top: -15px;
+  border-radius: 0 0 10px 10px;
+  border: 2px solid black;
+  padding: 20px;
+  color: black !important;
+  background-color: #FAFAFA;
+  box-shadow:
+  inset 0 -3em 3em rgba(0,0,0,0.1),
+        0 0  0 2px rgb(255,255,255),
+        0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+#divFormTitle{
+  border-radius: 10px 10px 0 0;
+  margin-top: 60px;
+  color:white;
+  width: bold;
+  text-align: center;
+  border-top:2px solid black;
+  border-right:2px solid black;
+  border-left:2px solid black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow:
+  inset 0 -3em 3em rgba(0,0,0,0.1),
+        0 0  0 2px rgb(255,255,255),
+        0.3em 0.3em 1em rgba(0,0,0,0.3);
+
+}
+hr{
+  height: 10px;
+  background-color:black;
+  margin-top: 30px !important;
+}
+#txtareaEstadoAnimo, #txtareaIndicaciones{
+  margin-top: 30px;
+  color: black;
+}
+#botonesForm{
+  margin-top: 40px;
+}
+#botonRegistrarVisita > a, #botonRegistrarBovino >a {
+    color: white;
+    text-decoration: none; 
+}
+
+
+/*SIGN IN*/
+body > main > form > h3 {
+  color: black !important;
+}
+body > main > form > img {
+  margin-top: 20px;
+}
+
+.form-signin {
+  margin-top: 120px !important;
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+  text-align: center;
+  background-color: #FFFFFF;
+  box-shadow:
+  inset 0 -3em 3em rgba(0,0,0,0.1),
+        0 0  0 2px rgb(255,255,255),
+        0.3em 0.3em 1em rgba(0,0,0,0.3);
+  
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+#mainForm{
+  border: 2px solid black;
+}
+#botonFormLogin{
+  margin-bottom: 10px;
+  margin-top: 20px;
+  background-color: #2E7D32;
+}
+
+/* MENU */
+.tarjeta{
+  border: 2px solid #73604F;
+  background-color:  #32736C;
+}
+.tarjeta > ul > li > a{
+  color: white;
+}
+.tarjetaPropietarios > ul > li > a:visited{
+  color: white;
+}
+.titleTarjeta{
+  border-radius: 5px 5px 0 0 !important;
+  background-color: #FAFAFA;
+}
+.bodyTarjeta{
+  transition-duration: 0.6s;
+  transition-timing-function: linear;
+  transition-delay: 0.1s;
+  border-radius: 0 0 5px 5px;
+}
+.bodyTarjeta:hover{
+  background-color: #275950;
+}
+
+@keyframes bounce {
+0%, 100%, 20%, 50%, 80% {
+  -webkit-transform: translateY(0);
+  -ms-transform:     translateY(0);
+  transform:         translateY(0)
+}
+40% {
+  -webkit-transform: translateY(-30px);
+  -ms-transform:     translateY(-30px);
+  transform:         translateY(-30px)
+}
+60% {
+  -webkit-transform: translateY(-15px);
+  -ms-transform:     translateY(-15px);
+  transform:         translateY(-15px)
+}
+}
+.bounce_button {  
+-webkit-animation-duration: 0.8s;
+animation-duration: 0.8s;
+-webkit-animation-fill-mode: both;
+animation-fill-mode: both;
+-webkit-animation-timing-function: ease-in-out;
+animation-timing-function: ease-in-out;
+
+}
+.bounce_button:hover {
+cursor: pointer;
+animation-name: bounce;
+-moz-animation-name: bounce;
+}
+
+#cuerpoMenu{
+  background-image: url(/img/main.jpg);
+  background-size: 124%;
+  background-repeat: no-repeat;
+}
+

@@ -8,57 +8,57 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CuidadoRemoto.Frontend
 build_property.RootNamespace = CuidadoRemoto.Frontend
-build_property.ProjectDir = C:\CuidadoRemoto.App-1\CuidadoRemoto.Frontend\
+build_property.ProjectDir = C:\CuidadoRemoto.App\CuidadoRemoto.Frontend\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\CuidadoRemoto.App-1\CuidadoRemoto.Frontend
+build_property.MSBuildProjectDirectory = C:\CuidadoRemoto.App\CuidadoRemoto.Frontend
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/CuidadoRemoto.App-1/CuidadoRemoto.Frontend/Pages/Error.cshtml]
+[C:/CuidadoRemoto.App/CuidadoRemoto.Frontend/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/CuidadoRemoto.App-1/CuidadoRemoto.Frontend/Pages/Formularios/FormBovino.cshtml]
+[C:/CuidadoRemoto.App/CuidadoRemoto.Frontend/Pages/Formularios/FormBovino.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9ybXVsYXJpb3NcRm9ybUJvdmluby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/CuidadoRemoto.App-1/CuidadoRemoto.Frontend/Pages/Formularios/FormHistoriaClinica.cshtml]
+[C:/CuidadoRemoto.App/CuidadoRemoto.Frontend/Pages/Formularios/FormHistoriaClinica.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9ybXVsYXJpb3NcRm9ybUhpc3RvcmlhQ2xpbmljYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/CuidadoRemoto.App-1/CuidadoRemoto.Frontend/Pages/Formularios/FormPropietario.cshtml]
+[C:/CuidadoRemoto.App/CuidadoRemoto.Frontend/Pages/Formularios/FormPropietario.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9ybXVsYXJpb3NcRm9ybVByb3BpZXRhcmlvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/CuidadoRemoto.App-1/CuidadoRemoto.Frontend/Pages/Formularios/FormVeterinario.cshtml]
+[C:/CuidadoRemoto.App/CuidadoRemoto.Frontend/Pages/Formularios/FormVeterinario.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9ybXVsYXJpb3NcRm9ybVZldGVyaW5hcmlvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/CuidadoRemoto.App-1/CuidadoRemoto.Frontend/Pages/Formularios/FormVisita.cshtml]
+[C:/CuidadoRemoto.App/CuidadoRemoto.Frontend/Pages/Formularios/FormVisita.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9ybXVsYXJpb3NcRm9ybVZpc2l0YS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/CuidadoRemoto.App-1/CuidadoRemoto.Frontend/Pages/Index.cshtml]
+[C:/CuidadoRemoto.App/CuidadoRemoto.Frontend/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/CuidadoRemoto.App-1/CuidadoRemoto.Frontend/Pages/Privacy.cshtml]
+[C:/CuidadoRemoto.App/CuidadoRemoto.Frontend/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/CuidadoRemoto.App-1/CuidadoRemoto.Frontend/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/CuidadoRemoto.App/CuidadoRemoto.Frontend/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/CuidadoRemoto.App-1/CuidadoRemoto.Frontend/Pages/_ViewImports.cshtml]
+[C:/CuidadoRemoto.App/CuidadoRemoto.Frontend/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/CuidadoRemoto.App-1/CuidadoRemoto.Frontend/Pages/_ViewStart.cshtml]
+[C:/CuidadoRemoto.App/CuidadoRemoto.Frontend/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/CuidadoRemoto.App-1/CuidadoRemoto.Frontend/Pages/Shared/_Layout.cshtml]
+[C:/CuidadoRemoto.App/CuidadoRemoto.Frontend/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-gcw6y1j2oi

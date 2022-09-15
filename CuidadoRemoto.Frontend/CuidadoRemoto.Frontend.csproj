@@ -1,10 +1,5 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
-  <ItemGroup>
-    <ProjectReference Include="..\CuidadoRemoto.Dominio\CuidadoRemoto.Dominio.csproj" />
-    <ProjectReference Include="..\CuidadoRemoto.Persistencia\CuidadoRemoto.Persistencia.csproj" />
-  </ItemGroup>
-
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>

@@ -1,91 +1,55 @@
 ﻿@page
 @model CuidadoRemoto.Frontend.FormBovinoModel
 @{
+    ViewData["Title"] = "Añadir Bovino";
+}
+@{
 <html>
-    <body>
-        <h2 class="titiloBovino">INGRESE DATOS DEL BOVINO</h2>
-
-            <table class="tableFormularios">
-            @foreach (var formulario in Model.ListaDatosBovinos)
-            {
-                <tr>
-                    <td>@formulario</td>
-                </tr>
-
-                <td>
-                    <form>
-                        <!-- Etiqueta del texto -->
-                        <labe for="codigo">CODIGO</labe>
-                        <!-- campo de texto -->
-                        <input type="text" codigo="codigo" />
-                        
-                    </form>
-                </td>
-
-                <td>
-                    <form>
-                        <labe for="nombre">NOMBRE</labe>
-                        <input type="text" nombre="nombre" />
-
-                    </form>
-                </td>
-
-                <td>
-                    <form>
-                        <labe for="color">COLOR</labe>
-                        <input type="text" color="color" />
-                
-                    </form>
-                </td>
-                
-
-         
-
-                 <td>
-                    <form>
-                        <labe for="especie">ESPECIE</labe>
-                        <input type="text" especie="especie" />
-                        
-                    </form>
-                </td>
-
-                <td>
-                    <form>
-                        <labe for="raza">RAZA</labe>
-                        <input type="text" raza="raza" />
     
-                    </form>
-                </td>
-                <td>
-                    <form>
-                        <labe for="edad">EDAD</labe>
-                        <input type="text" edad="edad" />
-                       
-                    </form>
-                </td>
-            }
-            
-            
-           
-        </table>
+    <body>
+     <div id="divFormTitle" class="container col-md-6">
+        <p>REGISTRAR BOVINO</p>
+      </div>
+      <div id="divForm" class="container col-md-6">
 
-            <div class="botonescrud">
-            <button type="submit">Guardar</button>
-            <button type="submit">Editar</button>
-            <button type="submit">Buscar</button>
-            <button type="submit">Eliminar</button>
-        <section class="ListarBovinos">
+        <form class="row g-3">
+            <div class="col-md-6 offset-md-3">
+              <label for="inputCode" class="form-label">Código del Bovino</label>
+              <input type="text" class="form-control" id="inputCode">
+            </div>
+            <div class="col-md-6">
+              <label for="inputNombres" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="inputNombres" required>
+            </div>
+            <div class="col-md-6">
+              <label for="inputColor" class="form-label">Color</label>
+              <input type="text" class="form-control" id="inputColor" required>
+            </div>
+            <div class="col-md-6">
+                <label for="inputEspecie" class="form-label">Especie</label>
+                <input type="text" class="form-control" id="inputEspecie" required>
+            </div>
+            <div class="col-md-6">
+                <label for="inputRaza" class="form-label">Raza</label>
+                <input type="text" class="form-control" id="inputRaza">
+            </div>
+              <div class="col-md-2 offset-md-5">
+                <label for="inputEdad" class="form-label">Edad</label>
+                <input type="text" class="form-control" id="inputEdad" required>
+              </div>
+              
+            <div id="botonesForm" class="col-md-12 offset-md-2">
+              <button type="submit" class="btn btn-success col-md-2">GUARDAR</button>
+              <button type="submit" class="btn btn-success col-md-2">EDITAR</button>
+              <button type="submit" class="btn btn-success col-md-2">BUSCAR</button>
+              <button type="submit" class="btn btn-danger col-md-2">ELIMINAR</button>
+            </div> 
+            <div id="botonesForm" class="col-md-12 offset-md-5">
+                <button id="botonRegistrarBovino" type="submit" class="btn btn-success ">LISTAR TODOS</button>
+              </div> 
             
-             <ul>
-                    <a href=" ojo falta el link">
-                        <!-- <button type="submit">Registrar su Bovino</button> -->
-                        
-                        <input class="boton w-sm-100" type="submit" value="ListarBovinos">
-                        
-                    </a>
-
-
-            </ul>
+          </form>
+      </div>
         
     </body>
 </html>

@@ -7,8 +7,7 @@ namespace CuidadoRemoto.Persistencia
     {
         public DbSet<Bovino> Bovinos { get; set; }
         public DbSet<PropietarioBovino> Propietarios { get; set; }
-
-        public DbSet<Veterinario> Veterinarios {get; set;}
+        public DbSet<Veterinario> Veterinarion {get; set;}
         public DbSet<Visita> Visitas { get; set; }
         public DbSet<Historia> Historias { get; set; }
         public DbSet<IndicacionCuidado> Indicaciones {get; set; }

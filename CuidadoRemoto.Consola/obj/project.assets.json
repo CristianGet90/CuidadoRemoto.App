@@ -6039,19 +6039,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mazuluaga\\.nuget\\packages\\": {}
+    "C:\\Users\\Sandra Ximena\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\CuidadoRemotoBovino\\CuidadoRemoto.App\\CuidadoRemoto.Consola\\CuidadoRemoto.Consola.csproj",
+      "projectUniqueName": "C:\\CuidadoRemoto.App\\CuidadoRemoto.Consola\\CuidadoRemoto.Consola.csproj",
       "projectName": "CuidadoRemoto.Consola",
-      "projectPath": "C:\\CuidadoRemotoBovino\\CuidadoRemoto.App\\CuidadoRemoto.Consola\\CuidadoRemoto.Consola.csproj",
-      "packagesPath": "C:\\Users\\mazuluaga\\.nuget\\packages\\",
-      "outputPath": "C:\\CuidadoRemotoBovino\\CuidadoRemoto.App\\CuidadoRemoto.Consola\\obj\\",
+      "projectPath": "C:\\CuidadoRemoto.App\\CuidadoRemoto.Consola\\CuidadoRemoto.Consola.csproj",
+      "packagesPath": "C:\\Users\\Sandra Ximena\\.nuget\\packages\\",
+      "outputPath": "C:\\CuidadoRemoto.App\\CuidadoRemoto.Consola\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\mazuluaga\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Sandra Ximena\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -6063,8 +6063,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\CuidadoRemotoBovino\\CuidadoRemoto.App\\CuidadoRemoto.Persistencia\\CuidadoRemoto.Persistencia.csproj": {
-              "projectPath": "C:\\CuidadoRemotoBovino\\CuidadoRemoto.App\\CuidadoRemoto.Persistencia\\CuidadoRemoto.Persistencia.csproj"
+            "C:\\CuidadoRemoto.App\\CuidadoRemoto.Persistencia\\CuidadoRemoto.Persistencia.csproj": {
+              "projectPath": "C:\\CuidadoRemoto.App\\CuidadoRemoto.Persistencia\\CuidadoRemoto.Persistencia.csproj"
             }
           }
         }

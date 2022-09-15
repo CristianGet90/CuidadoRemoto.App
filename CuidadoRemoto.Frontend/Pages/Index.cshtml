@@ -1,11 +1,85 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Menú Sistema Bovino";
 }
-
+@* 
 <div class="row">
     <div class="col-12">
         <img src="~/img/main.jpg" class="img-fluid" />
-    </div>
+    </div> *@
+    <body id="cuerpoMenu" class="d-flex flex-column h-100">
+        
+        <div class="container py-3">
+        <main style="margin-top:60px;">
+            <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+            <div  class="col offset-sm-0 offset-md-4">
+                <div  class="card mb-4 rounded-3 shadow-sm">
+                <div  class="card-header py-3 tarjeta titleTarjeta">
+                    <h4 class="my-0 fw-normal">PROPIETARIOS 👨‍🌾 </h4>
+                </div>
+                <div  class="card-body tarjeta bodyTarjeta">                
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li> ➕ <a asp-area="" asp-page="/Formularios/FormPropietario">Añadir Propietario</a></li>
+                        <li> 🔍 <a href="">Buscar Propietario</a></li>
+                        <li> ✏️ <a href="">Editar Propietario</a></li>
+                        <li> 📅 <a href="">Listar Propietarios</a></li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+            <div class="col  ">
+                <div class="card mb-4 rounded-3 shadow-sm">
+                <div class="card-header py-3 tarjeta titleTarjeta">
+                    <h4 class="my-0 fw-normal">VETERINARIOS 🧑‍⚕️</h4>
+                </div>
+                <div class="card-body tarjeta bodyTarjeta">
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li> ➕ <a asp-area="" asp-page="/Formularios/FormVeterinario">Añadir Veterinario</a></li>
+                        <li> 🔍 <a href="">Buscar Veterinario</a></li>
+                        <li> ✏️ <a href="">Editar Veterinario</a></li>
+                        <li> 📅 <a href="">Listar Veterinarios</a></li>
+                        
+                    </ul>
+                </div>
+                </div>
+            </div>
+
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 text-center">
+              <div class="col  offset-sm-0 offset-md-4">
+                <div class="card mb-4 rounded-3 shadow-sm">
+                <div class="card-header py-3 tarjeta titleTarjeta">
+                    <h4 class="my-0 fw-normal">BOVINOS 🐮</h4>
+                </div>
+                <div class="card-body tarjeta bodyTarjeta">
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li> ➕ <a asp-area="" asp-page="/Formularios/FormBovino">Añadir Bovino</a></>
+                        <li> 🔍 <a href="">Buscar Bovino</a></li>
+                        <li> ✏️ <a href="">Editar Bovino</a></li>
+                        <li> 📅 <a href="">Listar Bovino</a></li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+                <div class="col ">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                    <div class="card-header py-3 tarjeta titleTarjeta">
+                        <h4 class="my-0 fw-normal">HISTORIA CLÍNICA 📜</h4>
+                    </div>
+                    <div class="card-body tarjeta bodyTarjeta">
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li> ➕ <a asp-area="" asp-page="/Formularios/FormVisita">Añadir Registro</a></li>
+                            <li> ➕ <a href="">Añadir Historia</a></li>
+                            <li> 📅 <a href="">Listar Historias</a></li>
+                            <li> 📅 <a href="">Listar Registros</a></li>
+                            </ul>
+                    </div>
+                    </div>
+                </div>
+            
+                </div>
+        </main>
+      
+      </body>
 </div>

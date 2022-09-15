@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jMah1xA8Hib37aFbf4wryNXubG56sjqgzBhTM02YJtvjGwW/Jn12EI5AhOi12Q84+WG/s4fh7GU2XYjHVEGxMQ==",
+  "dgSpecHash": "WcF3AkvCq+obxHyJcigDQND9wdvBkySTzowkYeEd4D9CtEN+KhCezn4tvk30wTRlV1oW9St/F88FL4FpSBoNEw==",
   "success": true,
-  "projectFilePath": "C:\\CuidadoRemoto.App-1\\CuidadoRemoto.Frontend\\CuidadoRemoto.Frontend.csproj",
+  "projectFilePath": "C:\\CuidadoRemoto.App\\CuidadoRemoto.Frontend\\CuidadoRemoto.Frontend.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
